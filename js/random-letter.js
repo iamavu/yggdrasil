@@ -8,7 +8,7 @@ var Messenger = function(el){
     m.current_length = 0;
     m.fadeBuffer = false;
     m.messages = [
-      './opening-pandora'
+      'accessing /var/log/avantika'
     ];
     
     setTimeout(m.animateIn, 100);
