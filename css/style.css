@@ -34,7 +34,7 @@ body
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 #open-effect::before {
-  content: 'accessing /var/log/yggdrasil';
+  content: 'executing /usr/bin/yggdrasill';
   position: absolute;
   left: 2px;
   text-shadow: -2px 0 #ff00c1;
@@ -42,7 +42,7 @@ body
   animation: glitch-anim 5s infinite linear alternate-reverse;
 }
 #open-effect::after {
-  content: 'accessing /var/log/yggdrasil';
+  content: 'executing /usr/bin/yggdrasil';
   position: absolute;
   left: -4px;
   text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;

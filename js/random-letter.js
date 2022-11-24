@@ -8,7 +8,7 @@ var Messenger = function(el){
     m.current_length = 0;
     m.fadeBuffer = false;
     m.messages = [
-      'accessing /var/log/avantika'
+      'executing /usr/bin/yggdrasil'
     ];
     
     setTimeout(m.animateIn, 100);
